@@ -64,6 +64,14 @@ dependencies {
     implementation navigation.fragmentKtx
     implementation navigation.uiKtx
 
+    //Retrofit
+    implementation retrofit.retrofit
+    implementation retrofit.converterGson
+
+    //OkHttp
+    implementation okHttp.okHttp
+    implementation okHttp.loggingInterceptor
+
     //Picasso
     implementation thirdParty.picasso
 
